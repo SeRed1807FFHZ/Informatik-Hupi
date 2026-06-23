@@ -1,1 +1,1 @@
-# Informatik-Hupi
+# Informatik-Huppi
