@@ -49,32 +49,31 @@ public class ChessBoardPanel extends JPanel {
     private void initPieces() {
         // Zeilen r=0 entspricht Reihe 8 (Black back rank)
         // Zeilen r=7 entspricht Reihe 1 (White back rank)
-
         // Black
-        setPiece(0, 0, "bR");
-        setPiece(0, 1, "bN");
-        setPiece(0, 2, "bB");
+        setPiece(0, 0, "bT");
+        setPiece(0, 1, "bP");
+        setPiece(0, 2, "bL");
         setPiece(0, 3, "bQ");
         setPiece(0, 4, "bK");
-        setPiece(0, 5, "bB");
-        setPiece(0, 6, "bN");
-        setPiece(0, 7, "bR");
+        setPiece(0, 5, "bL");
+        setPiece(0, 6, "bP");
+        setPiece(0, 7, "bT");
 
         for (int c = 0; c < 8; c++)
-            setPiece(1, c, "bP");
+            setPiece(1, c, "bB");
 
         // White
         for (int c = 0; c < 8; c++)
-            setPiece(6, c, "wP");
+            setPiece(6, c, "wB");
 
-        setPiece(7, 0, "wR");
-        setPiece(7, 1, "wN");
-        setPiece(7, 2, "wB");
+        setPiece(7, 0, "wT");
+        setPiece(7, 1, "wP");
+        setPiece(7, 2, "wL");
         setPiece(7, 3, "wQ");
         setPiece(7, 4, "wK");
-        setPiece(7, 5, "wB");
-        setPiece(7, 6, "wN");
-        setPiece(7, 7, "wR");
+        setPiece(7, 5, "wL");
+        setPiece(7, 6, "wP");
+        setPiece(7, 7, "wT");
     }
 
     private void setPiece(int r, int c, String pieceCode) {
